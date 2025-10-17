@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GetOn - Descargador inteligente</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="icon.png" alt="GetOn Icon" class="logo">
+    <h1>GetOn — Descargador inteligente</h1>
+    <p>Pega enlaces para descargar archivos y elegir el mejor formato.</p>
+  </header>
+
+  <main>
+    <textarea id="urls" placeholder="https://example.com/file.jpg\nhttps://site.com/video.mp4"></textarea>
+    <div class="controls">
+      <select id="mode">
+        <option value="auto">Auto: formato más adecuado</option>
+        <option value="keep">Mantener original</option>
+        <option value="choose">Elegir manualmente</option>
+      </select>
+      <select id="userFormat" style="display:none">
+        <option value="">-- Selecciona formato --</option>
+        <option value="image/png">PNG</option>
+        <option value="image/jpeg">JPEG</option>
+        <option value="image/webp">WEBP</option>
+        <option value="text/plain">TXT</option>
+        <option value="application/json">JSON</option>
+      </select>
+      <button id="inspect">Inspeccionar</button>
+      <button id="downloadAll">Descargar todo</button>
+    </div>
+    <div id="results"></div>
+  </main>
+
+  <footer>© 2025 GetOn — hecho por Eric</footer>
+</body>
+</html>

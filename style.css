@@ -1,0 +1,64 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f3f6fc;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+header {
+  margin-bottom: 20px;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+}
+textarea {
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 15px;
+}
+.controls {
+  margin: 15px 0;
+}
+button {
+  background: #5A8DEE;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #4677cc;
+}
+select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+#results {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item {
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+footer {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #666;
+}
